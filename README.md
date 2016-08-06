@@ -12,6 +12,7 @@ The tiny amount of RAM on this router makes Transmission run slowly, coupled wit
 
 ## What's included?
 
+* BusyBox 1.21.1
 * cURL 7.50.1
 * OpenSSL 1.0.2h
 * Zlib 1.2.8
@@ -48,3 +49,5 @@ If it runs, congrats! Terminate the daemon by pressing `Ctrl`+`C` (it may segfau
 ```
 transmission-daemon
 ```
+
+At this point, you can create an init script to make Transmission run on every router bootup if you want (yes, `/etc/init.d` isn't read-only), customize the Transmission Web Interface, etc.
