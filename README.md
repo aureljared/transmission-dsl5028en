@@ -8,17 +8,18 @@ Transmission BitTorrent client for the Aztech DSL5028EN (1T1R) Linux wireless ro
 ## Why?
 
 This is one of those *"because I can"* projects - while the core functionality is there, it doesn't run as well as I want to.
-The tiny amount of RAM on this router makes Transmission run slowly, coupled with the fact that the router's USB port isn't 3.0.
+The tiny amount of RAM on this router makes Transmission run slowly, coupled with the fact that the router's USB port isn't USB 3.0.
 
 ## What's included?
 
+* bash 4.3.30
 * BusyBox 1.21.1
 * cURL 7.50.1
-* OpenSSL 1.0.2h
-* Zlib 1.2.8
 * libevent 2.0.22
+* OpenSSL 1.0.2h
 * Transmission 2.92
 * uClibc 0.9.33.2 sysroot libs (needed to run Transmission)
+* Zlib 1.2.8
 
 ## How to use
 
